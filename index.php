@@ -28,6 +28,7 @@
 </head>
 <body>
     <h2>My Api Keys</h2>
+    <p>The keys will be copied as ApiName=ApiKey.<br> Example: OPENAI_API_KEY=sk-proj123456</p>
     <ul>
         <?php
             foreach ($apiKeys as $key => $value) { 
