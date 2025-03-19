@@ -32,7 +32,9 @@
     <ul>
         <?php
             foreach ($apiKeys as $key => $value) { 
-                echo "<li>{$key}<button onclick=\"copyToClipboard('{$key}={$value}')\">Copy</button></li>";
+                echo "<li>{$key}<button onclick=\"copyToClipboard('{$key}={$value}')\">Key+Value</button>
+                <button onclick=\"copyToClipboard('{$key}')\">Key</button>
+                <button onclick=\"copyToClipboard('{$value}')\">Value</button></li>";
             }
         ?>
     </ul>
