@@ -4,7 +4,6 @@ This project is a simple PHP and JavaScript-based web page that displays a list 
 
 ## Features
 - Displays API keys dynamically from a PHP array.
-- Provides a "Copy" button for each API key.
 - Uses JavaScript to copy the key to the clipboard.
 - Shows an alert message when an API key is copied.
 
@@ -15,9 +14,10 @@ This project is a simple PHP and JavaScript-based web page that displays a list 
 4. Open the file in a web browser.
 
 ## Usage
-1. Each API key is listed with a "Copy" button.
-2. Click the button to copy the corresponding key to the clipboard.
-3. A confirmation alert will appear.
+1. Select the API Key you want to copy from the dropdown
+2. Check what you want to copy via the radio buttons.
+3. Click the button to copy to the clipboard.
+4. A confirmation alert will appear.
 
 ## License
 This project is open-source and can be modified as needed.
